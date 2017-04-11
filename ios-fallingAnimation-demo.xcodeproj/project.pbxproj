@@ -13,6 +13,7 @@
 		961072411E9C92D800B25083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961072401E9C92D800B25083 /* Assets.xcassets */; };
 		961072441E9C92D800B25083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961072421E9C92D800B25083 /* LaunchScreen.storyboard */; };
 		9610724F1E9C92D800B25083 /* ios_fallingAnimation_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9610724E1E9C92D800B25083 /* ios_fallingAnimation_demoTests.swift */; };
+		9610725A1E9C932200B25083 /* FallingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961072591E9C932200B25083 /* FallingAnimatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9610724A1E9C92D800B25083 /* ios-fallingAnimation-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-fallingAnimation-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9610724E1E9C92D800B25083 /* ios_fallingAnimation_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_fallingAnimation_demoTests.swift; sourceTree = "<group>"; };
 		961072501E9C92D800B25083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961072591E9C932200B25083 /* FallingAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallingAnimatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				961072391E9C92D800B25083 /* AppDelegate.swift */,
 				9610723B1E9C92D800B25083 /* ViewController.swift */,
 				9610723D1E9C92D800B25083 /* Main.storyboard */,
+				961072591E9C932200B25083 /* FallingAnimatable.swift */,
 				961072401E9C92D800B25083 /* Assets.xcassets */,
 				961072421E9C92D800B25083 /* LaunchScreen.storyboard */,
 				961072451E9C92D800B25083 /* Info.plist */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9610725A1E9C932200B25083 /* FallingAnimatable.swift in Sources */,
 				9610723C1E9C92D800B25083 /* ViewController.swift in Sources */,
 				9610723A1E9C92D800B25083 /* AppDelegate.swift in Sources */,
 			);
@@ -345,6 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-fallingAnimation-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-fallingAnimation-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,6 +363,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-fallingAnimation-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-fallingAnimation-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,18 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet private weak var fallingImageView: FallingmageView!
+
+    @IBAction private func didTapFallingButton(_ sender: UIButton) {
+        fallingImageView.animate()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
+final class FallingmageView: UIImageView, FallingAnimatable {}
